@@ -1,0 +1,10 @@
+
+
+JavaScript notes
+document.getElementById('name')
+document.getElementsByClassName('name')
+document.querySelector('#name')
+document.querySelector('.name')
+document.querySelector('h1')
+document.querySelector('#current--0').textContent = dice;
+document.querySelector('#current--0').innerHTML = '<b>' + dice + '</b>';
