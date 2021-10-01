@@ -1,7 +1,7 @@
 scores = [0, 0];
     roundScore = 0;
     activePlayer = 0;
-    winScore= 6;
+    winScore= 30;
 let diceDom = document.querySelector('.dice');
     diceDom.style.display = 'none';
     document.getElementById('score--0').textContent = 0;
@@ -72,7 +72,7 @@ function newGame(){
     scores = [0, 0];
     roundScore = 0;
     activePlayer = 0;
-    winScore= 6;
+    winScore= 30;
     diceDom.style.display = 'none';
     document.getElementById('score--0').textContent = 0;
     document.getElementById('score--1').textContent = 0;
